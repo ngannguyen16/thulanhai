@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0}
+body{background-image:url("../img/white-plaster-texture.jpg")}
+.wrapper        {width:100%;height:100vh;
+	     }
+.bigbox         {width:95%; 
+	   height:100vh;
+/*	   background:rgba(49,116,16,1.00); */
+	            margin:0 auto}
+
+.header        {width:100%; height:130px;
+/*        background:pink}*/
+}
+
+.logo         {width:40%; height:100px; 
+/*	       background:#942A2C; */
+	      float:left}
+.logo h1      {font-size:90px;
+	          color:#302F2F;
+	          font-family: 'Dela Gothic One', cursive;
+	          margin-left:40px;
+              }
+.logo:hover h1{
+	color: rgba(135,9,11,1.00);
+}
+
+.boxmot{width:140px; height:140px; 
+	   background:#FFC916;
+       position:absolute;
+	   z-index: -1;
+	   margin:1px 0px 0px 30px;
+	   border-radius: 50%
+        }
+
+
+
+.menu        {width:60%; height:100px; 
+       /*	  background:rgba(37,56,151,0.58); */
+	          float:left}
+.menu ul li  {list-style: none}
+.menu ul li a{text-decoration: none;float:right; font-size:20px;margin:30px 20px;
+	          color:#302F2F;font-family: 'Dela Gothic One', cursive;
+             }
+.menu ul li a:hover{
+	color: rgba(135,9,11,1.00);}
+
+
+
+
+ main        {width:100%; padding-top:22px;
+/*	          background:blue*/
+}
+.sectionmot  {width:100%; height:550px; 
+	         background-image:url("../img/background-01.jpg");
+	         background-repeat:no-repeat;
+	          background-size: cover; border:2px solid #393939;
+	         margin-top:30px;
+	         
+             }
+.left {width:50%; height:600px; float:left;
+/*	  background:#316FB5*/
+}
+.right {width:50%; height:600px;float:right;
+/*	   background:#D00CA9*/
+ }
+.top{width:100%;height:300px;
+/*	 background:#5C191A*/
+}
+.under{width:100%; height:300px;
+/*	   background:#D31316*/
+}
+.under img{width:30%; float:right;margin:40px 30px 0px 0px;
+	   animation-name: vong-xoay;
+	   animation-iteration-count: infinite;
+	   animation-timing-function: linear;
+
+	   animation-duration: 3s
+	  }
+@keyframes vong-xoay{
+	from{transform: rotate(0deg)}
+	to{transform: rotate(360deg)}
+	
+	
+}
+.aboutme     {width:300px;height:75px;background:rgba(135,9,11,1.00);
+	         margin:70px 0px 0px 100px;transform: rotate(-8deg)}
+.aboutme h1 a{font-size:40px;text-decoration: none;color:rgba(255,205,12,1.00);
+	         margin-left:35px;line-height:68px;font-family: 'Dela Gothic One', cursive;}
+
+
+.myproject     {width:330px;height:75px;background:rgba(135,9,11,1.00);
+	            margin:90px 0px 0px 100px;transform: rotate(7deg)}
+.myproject h1 a{font-size:40px;text-decoration: none;color:rgba(255,205,12,1.00);
+	            margin-left:34px;line-height:67px;font-family: 'Dela Gothic One', cursive;}
+
+.photo     {width:370px;height:75px;background:rgba(135,9,11,1.00);
+	       margin:80px 0px 0px 100px;transform: rotate(-10deg)}
+.photo h1 a{font-size:40px;text-decoration: none;color:rgba(255,205,12,1.00);
+	            margin-left:30px;line-height:65px;font-family: 'Dela Gothic One', cursive;}
+.sectionhai{ width:100%; padding-bottom:90px
+	         
+             }
+.sectionhai img{width:100%;margin-top:100px;
+                }
+
+.sectionba{width:100%;
+/*	      background:rgba(135,9,11,1.00);*/
+}
+.sectionba img{float:right; width:33%; margin:0px}
+
+
+.cotmot{width:100%;height:100px;
+/*	  border: 2px solid #1C1C1C*/
+   }
+.cotmot h1{line-height:100px;color:rgba(135,9,11,1.00);
+           font-family: 'Dela Gothic One', cursive; font-size:60px}
+
+
+
+
+
+.cothai{width:35%; height:120px;margin-top:20px;
+	   border-bottom: 3px solid #1C1C1C
+}
+.cothai h2{margin:11px 0px 0px 15px;font-family: 'Dela Gothic One', cursive;padding-bottom:5px}
+.cothai p{margin:0px 0px 0px 15px;font-size:21px;font-family: 'Mitr', sans-serif;font-size:24px}
+
+
+
+.cotba{width:35%; height:80px;border-bottom: 3px solid #1C1C1C;margin-top:20px;}
+.cotba h2{margin:6px 0px 0px 15px;font-family: 'Dela Gothic One', cursive;padding-bottom:5px}
+.cotba p{margin:0px 0px 0px 15px;font-size:21px;font-family: 'Mitr', sans-serif;font-size:24px}
+
+
+
+
+.cotbon{width:35%; height:100px;border-bottom: 3px solid #1C1C1C;margin-top:20px;}
+.cotbon h2{margin:0px 0px 0px 15px;font-family: 'Dela Gothic One', cursive;padding-bottom:5px}
+.icon{width:40px; height:40px; background-image:url("../img/iconhai.png");
+	  background-size:cover;
+	  margin:10px 0px 0px 11px;float:left}
+.iconhai{width:40px; height:40px; background-image:url("../img/ps.png");background-size:cover;
+	   margin:10px 0px 0px 11px;float:left;}
+.iconba{width:40px; height:40px; background-image:url("../img/iconba.png");background-size:cover;
+	  margin:10px 0px 0px 11px;float:left}
+
+
+
+
+.cotnam{width:35%; height:100px;border-bottom: 3px solid #1C1C1C;margin-top:20px;}
+.cotnam h2{margin:11px 0px 0px 15px;font-family: 'Dela Gothic One', cursive;padding-bottom:5px}
+
+.fb img{width:40px; height:40px; background:black;margin:11px 0px 0px 15px;float:left}
+ 
+.ins img{width:40px; height:40px; background:black;margin:11px 0px 0px 15px;float:left}
+.be img{width:40px; height:40px; background:black;margin:11px 0px 0px 15px;float:left}
+.gmail img{width:40px; height:40px; background:black;margin:11px 0px 0px 15px;float:left}
+
+.sectionbon{width:100%;
+/*	       background:pink*/
+	
+}	
+.tieude{width:100%; height:150px;
+/*	    background:#751314;*/
+	    margin-top:150px}
+.tieude h1{color:rgba(135,9,11,1.00);
+           font-family: 'Dela Gothic One', cursive; font-size:60px;padding-bottom:15px}
+.tieude h2{font-family: 'Dela Gothic One', cursive; font-size:40px;line-height:35px;}
+.tieude p{font-family: 'Mitr', sans-serif; font-size:24px;line-height:90px}
+/*.tieude hr{float:left; border:3px solid black; width:500px;color:black;}*/
+.hinhdau{width:900px; height:550px;
+/*	    background:black*/
+	    margin:0 auto;padding:90px
+	 }
+.hinhdau img{width:900px}
+
+
+.background{width:100%;height:480px;
+/*	        background:black;*/
+	        display:flex;justify-content: space-around;align-items: center}
+
+.hinhmot{width:23%;height:450px; background-image:url("../img/IMG_0382.png");background-size:cover;
+/*	    margin:20px 30px 0px 0px;float:left*/
+}
+.hinhhai{width:23%;height:450px;background-image:url("../img/IMG_0327.png");background-size:cover;
+/*	    margin:20px 30px 0px 0px;float:left*/
+}
+.hinhba{width:23%;height:450px; background-image:url("../img/IMG_0335.png");background-size:cover;
+/*	    margin:20px 30px 0px 0px;float:left*/
+}
+.hinhbon{width:23%;height:450px; background-image:url("../img/IMG_0382.png");background-size:cover;
+/*	     margin:20px 30px 0px 0px;float:left*/
+}
+.hinhnam{width:900px; height:670px;margin:0 auto;padding-top:20px
+/*	    background:pink*/
+}
+	   
+.hinhnam img{width:900px;margin:0 auto}
+.hinhsau{width:100%;height:430px;
+/*	     background:black;*/
+	      display:flex;justify-content: space-around }
+.hinhsau img{width:430px}
+.sectionam{width:100%;height:1600px;
+/*	      background:grey*/
+}
+.tieudehai{width:100%; height:150px;
+/*	    background:#751314;*/
+	    margin-top:150px}
+
+.tieudehai h2{font-family: 'Dela Gothic One', cursive; font-size:40px;line-height:35px;}
+.tieudehai p{font-family: 'Mitr', sans-serif; font-size:24px;line-height:90px}
+.poster{width:100%;height:450px;
+/*	   background:pink*/
+}
+.poster img{margin:0 auto; width:100%;margin:10px}
+.poster-hai{width:100%;margin-top:30px;
+/*	       background:#8BB9C1;*/
+	       display:flex; justify-content: space-around}
+.box-mot{width:420px;height:420px;background-image:url("../img/tiktok poster-01.jpg");background-size:cover}
+.box-hai{width:420px;height:420px;background-image:url("../img/post-01.jpg");background-size:cover}
+.box-ba{width:420px;height:420px;background-image:url("../img/tiktok-01.jpg");background-size:cover}
+
+
+.poster-ba{width:100%; padding-bottom: 20px;
+/*	      background:blue; */
+	       margin-top:20px;
+	      display:flex;justify-content: space-around}
+.hop-mot{width:600px;
+/*	     background:white*/
+}
+.hop-mot img{width:600px}
+
+.hop-hai{width:600px; 
+/*	    background:grey*/
+}
+.hop-hai img{width:600px}
+.sectionsau{width:100%}
+.tieudeba{width:100%;height:100px;
+/*	     background:blue*/
+}
+.tieudeba h1{color:rgba(135,9,11,1.00);
+           font-family: 'Dela Gothic One', cursive; font-size:60px;padding-bottom:15px}
+.tieudeba h2{font-family: 'Dela Gothic One', cursive; font-size:40px;line-height:35px;}
+
+
+
+
+
+
+
